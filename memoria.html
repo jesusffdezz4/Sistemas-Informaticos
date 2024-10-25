@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Memoria | UD1.- Sistemas Informáticos</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="María del Mar Senra Martul" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar navegación</a></p>
+<header id="header"><div id="headerContent">UD1.- Sistemas Informáticos</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Sistema informático</a></li>
+   <li class="current-page-parent"><a href="hardware.html" class="current-page-parent daddy">Hardware</a>
+   <ul>
+      <li><a href="cpu.html" class="no-ch">CPU</a></li>
+      <li id="active"><a href="memoria.html" class="active no-ch">Memoria</a></li>
+      <li><a href="buses.html" class="no-ch">Buses</a></li>
+      <li><a href="perifricos.html" class="no-ch">Periféricos</a></li>
+      <li><a href="si_individuais.html" class="no-ch">SI individuales</a></li>
+   </ul>
+   </li>
+   <li><a href="software.html" class="daddy">Software</a>
+   <ul class="other-section">
+      <li><a href="programas.html" class="no-ch">Programas</a></li>
+      <li><a href="licencias.html" class="daddy">Licencias</a>
+      <ul class="other-section">
+         <li><a href="software_libre.html" class="no-ch">Software libre</a></li>
+         <li><a href="software_de_cdigo_abierto.html" class="no-ch">Software de código abierto</a></li>
+         <li><a href="software_privativo.html" class="no-ch">Software privativo</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="personal.html" class="no-ch">Personal</a></li>
+   <li><a href="datos.html" class="no-ch">Datos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="cpu.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="buses.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Memoria</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<p>Es la encargada de almacenar tanto <em>el software</em> como los datos que manipula el sistema informático. Podemos distinguir entre:</p>
+<ul>
+<li>
+<p><strong>Memoria de almacenamiento externo</strong>, es permanente, y la constituyen periféricos de almacenamiento como el disco duro o los pendrives.</p>
+</li>
+<li>
+<p><strong>Memoria interna <abbr title="Read-Only Access">ROM</abbr></strong>, en principio de sólo lectura, contiene programas que permiten el arranque del ordenador. En general, <strong>muchos componentes y periféricos poseen su firmware en memoria no volátil</strong>. No obstante, <em>dado que este código también está sujeto a mejoras y actualizaciones, las actuales memorias <abbr title="Read-Only Access">ROM</abbr> no son estrictamente de sólo lectura</em>, sino que permiten su escritura ocasional. La placa base no es una excepción y contiene la <abbr title="Basic Input-Output System">BIOS</abbr> (sistema básico de Entrada/Salida) que se encarga de cargar el sistema operativo.</p>
+<div class="admonition note">
+<p class="admonition-title"><em><span style="background-color: #ffff99;">Nota: Las placas base, además de memoria <abbr title="Read-Only Access">ROM</abbr>, disponen de un tipo de memoria <abbr title="Random Access Memory">RAM</abbr> de muy bajo consumo, la <abbr title="Complementary Metal-Oxide-Semiconductor">CMOS</abbr>, que permite configurar algunos parámetros relacionados con la <abbr title="Basic Input-Output System">BIOS</abbr>. Por ejemplo, la secuencia de arranque por defecto. Por esa razón, son un punto sensible para la seguridad de los ordenadores.<br /></span></em></p>
+</div>
+</li>
+<li>
+<p><strong>Memoria interna <abbr title="Random Access Memory">RAM</abbr></strong> que almacena temporalmente los programas y datos que procesa el ordenador en un momento determinado. Se caracteriza por:</p>
+<ul class="simple">
+<li>
+<p>Ser <strong>volátil</strong>, esto es, la información que tiene alojada se pierde al apagar el dispositivo, al no tener alimentación eléctrica.</p>
+</li>
+<li>
+<p>Ser más <strong>rápida</strong> que la memoria de almacenamiento externo.</p>
+</li>
+<li>
+<p>Ser más <strong>cara</strong> que la memoria de almacenamiento externo.</p>
+</li>
+</ul>
+<p>Está constituida por <strong>celdas de 1 byte</strong> que alojan información en formato binario. Cada celda tiene una dirección distinta (dirección de memoria), para que el procesador sea capaz de leer y escribir en todas las celdas que componen la memoria:</p>
+<ul class="simple">
+<li>
+<p>En los procesadores con arquitectura de 32 bits, las direcciones son de 32 bits y sólo se pueden referir 4GB de memoria <abbr title="Random Access Memory">RAM</abbr>. Con 32 bits sólo se pueden escribir 2<sup>32</sup> valores, entonces solo tenemos 2<sup>32</sup> direcciones para celdas. Como en cada celda se aloja 1 byte, la memoria máxima disponible es 2<sup>32</sup> bytes o, lo que es lo mismo, 4*2<sup>10</sup>*2<sup>10</sup>*2<sup>10</sup> bytes, o sea, 4*1024*1024*1024 bytes, esto es, 4 GB. <br /><em>Recuerden 1024 bytes=1KB - 1024KB=1MG - 1024 MG=1GB*4= 4GB</em></p>
+</li>
+<li>
+<p>En los procesadores con arquitectura de 64 bits, no existe limitación en la práctica ya que esta es muy elevada (16 EB).</p>
+</li>
+</ul>
+<p><em><span style="background-color: #ffff99;">Ha habido distintos tipos de memoria <abbr title="Random Access Memory">RAM</abbr>, aunque la actual se llama <abbr title="Double Data Rate">DDR</abbr> (doble tasa de transferencia de datos) que ya va por su cuarta generación: <abbr title="Double Data Rate">DDR</abbr>4.</span></em></p>
+</li>
+</ul>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Licenciado bajo la</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="cpu.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="buses.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
